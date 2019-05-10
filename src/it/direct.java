@@ -6,15 +6,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
-@WebServlet(name = "Servlet2")
-public class Servlet2 extends HttpServlet {
+@WebServlet(name = "direct")
+public class direct extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String Sum=request.getAttribute("sum").toString();
-        response.getWriter().print(Sum);
+
     }
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doPost(request,response);
+        System.out.println("用户登录成功");
+        //实现了请求转发的功能
+        request.getRequestDispatcher("index").forward(request,response);
+
     }
 }

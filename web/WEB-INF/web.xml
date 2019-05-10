@@ -12,9 +12,9 @@
         <url-pattern>/it.Servlet</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>fi1</servlet-name>
-        <servlet-class>it.Servlet</servlet-class>
-    </servlet>
+    <servlet-name>fi1</servlet-name>
+    <servlet-class>it.Servlet</servlet-class>
+</servlet>
     <servlet-mapping>
         <servlet-name>fi1</servlet-name>
         <url-pattern>/it.Servlet2</url-pattern>

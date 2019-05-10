@@ -20,9 +20,8 @@ public class Servlet extends HttpServlet {
         }
        // PrintWriter out= response.getWriter();
       //  out.print(sum);
-       request.setAttribute("sum",sum);
-       RequestDispatcher rd=request.getRequestDispatcher("/it.Servlet2");
-        rd.forward(request,response);
+     request.setAttribute("sum",sum);
+     request.getRequestDispatcher("it/Servlet2").forward(request,response);
 
     }
 
