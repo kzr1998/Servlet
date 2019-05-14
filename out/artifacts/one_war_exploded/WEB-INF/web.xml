@@ -43,4 +43,20 @@
         <servlet-name>ck</servlet-name>
         <url-pattern>/check.CheckServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>el</servlet-name>
+        <servlet-class>Eltest.ElServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>el</servlet-name>
+        <url-pattern>/info</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>el1</servlet-name>
+        <servlet-class>Eltest.test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>el1</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
 </web-app>

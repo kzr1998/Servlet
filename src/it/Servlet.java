@@ -22,7 +22,7 @@ public class Servlet extends HttpServlet {
        //out.print(sum);
      request.setAttribute("sum",sum);
      request.getRequestDispatcher("it.Servlet2").forward(request,response);
-      //response.sendRedirect("it.Servlet2");
+     // response.sendRedirect("/it.Servlet2");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
