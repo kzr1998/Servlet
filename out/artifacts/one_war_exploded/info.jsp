@@ -11,12 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-  <%--<%--%>
-      <%--Course course=(Course)request.getAttribute( "Course" );--%>
-      <%--out.println( "<h1>姓名："+Course.getName()+"</h1>" );--%>
-      <%--out.println( "<h1>编号："+Course.getId()+"</h1>" );--%>
-      <%--out.println( "<h1>所属方向："+Course.getCategory()+"</h1>" );--%>
-  <%--%>--%>
 
   <h1>姓名：${requestScope.Course.name}</h1>
   <h2>编号：${requestScope.Course.id}</h2>

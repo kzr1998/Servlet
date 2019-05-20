@@ -59,4 +59,44 @@
         <servlet-name>el1</servlet-name>
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>jstl</servlet-name>
+        <servlet-class>jstlservlet.jstl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jstl</servlet-name>
+        <url-pattern>/jstlservlet.jstl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jstl1</servlet-name>
+        <servlet-class>jstlservlet.jstl1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jstl1</servlet-name>
+        <url-pattern>/jstlservlet.jstl1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>jstl2</servlet-name>
+    <servlet-class>jstlservlet.jstl2</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>jstl2</servlet-name>
+        <url-pattern>/jstlservlet.jstl2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jstl3</servlet-name>
+        <servlet-class>jstlservlet.jstl3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jstl3</servlet-name>
+        <url-pattern>/jstlservlet.jstl3</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jstl4</servlet-name>
+        <servlet-class>jstlservlet.jstl4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jstl4</servlet-name>
+        <url-pattern>/jstlservlet.jstl4</url-pattern>
+    </servlet-mapping>
 </web-app>
